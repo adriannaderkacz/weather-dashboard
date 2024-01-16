@@ -5,20 +5,20 @@ body {
 }
 
 :root {
-    --card-bk-color: #42a4f5cf;
-    --card-font-color: #FEFEFE;
+    --card-bk-color: #bbdefb;
+    --card-font-color: #292b2e;
     --header-bk-dark-color: #51a8efa4;
     --header-bk-light-color: #3361BA;
 
 }
-.weather-header {
+.weather-header { 
     background: linear-gradient(to right, #1565c0 0%, #bbdefb 100%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 .today-weather {
-    border: 1px solid #2D3E50;
-    border-radius: 25px;
+    border: 1px solid #292b2e;
+    border-radius: 20px;
     padding: 20px;
 }
 

@@ -2,7 +2,7 @@
 ## Bootcamp: Module 8 Challenge
 This weather dashboard is a web application crafted in JavaScript, enabling users to conveniently search for and view current weather conditions and a five-day forecast for various cities. The application seamlessly integrates local storage to retain a history of searched cities, offering quick and easy access to previous searches. Its dynamic interface updates weather information in real time, providing an engaging and user-friendly experience for anyone interested in keeping up with weather trends locally or globally.
 
-## Table of Contents (Optional)
+## Table of Contents
 - [Installation](#installation)
 - [Page](#page)
 - [Usage](#usage)
@@ -13,7 +13,7 @@ This weather dashboard is a web application crafted in JavaScript, enabling user
 N/A
 
 ## Page
-[Link to the deployed page]
+https://adriannaderkacz.github.io/weather-dashboard/
 
 [Screenshots]
 
