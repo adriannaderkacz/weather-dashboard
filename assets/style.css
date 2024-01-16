@@ -1,30 +1,32 @@
 body {
     width: 100vw;
     margin: 0;
+    background-color: #fbfbff;
 }
 
 :root {
-    --card-bk-color: #175fad;
+    --card-bk-color: #42a4f5cf;
     --card-font-color: #FEFEFE;
-    --header-bk-dark-color: #200C4F;
+    --header-bk-dark-color: #51a8efa4;
     --header-bk-light-color: #3361BA;
 
 }
 .weather-header {
-    background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
-    border-bottom-left-radius: 20px;
-}
+    background: linear-gradient(to right, #1565c0 0%, #bbdefb 100%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
 .today-weather {
     border: 1px solid #2D3E50;
     border-radius: 25px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .forecast-card {
     padding: 10px;
     background-color: var(--card-bk-color);
     color: var(--card-font-color);
+    border-radius: 15px;
 }
 
 #search-input {
