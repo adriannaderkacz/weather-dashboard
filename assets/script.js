@@ -5,3 +5,13 @@ $(function () {
     checkHistoryButton(apiKey); //Set up event listeners for the search history buttons
     searchCityWeather(apiKey); //Set up the search functionality for new city weather data
 });
+
+//Retrieve and display cities from local storage
+function getFromLocalStorage() {
+    const cityList = JSON.parse(localStorage.getItem('savedCitiesList')); //Retrieve city list from local storage
+    if (cityList) {
+        $.each(cityList, (i) => { //Iterate over the city list and add each city as a button
+            addCityBtn(cityList[i]);
+        })
+    }
+}
