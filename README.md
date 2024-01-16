@@ -13,7 +13,7 @@ This weather dashboard is a web application crafted in JavaScript, enabling user
 N/A
 
 ## Page
-[Link to the deployed page]
+https://adriannaderkacz.github.io/weather-dashboard/
 
 [Screenshots]
 
