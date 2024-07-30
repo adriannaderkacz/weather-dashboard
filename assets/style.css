@@ -1,36 +1,72 @@
 body {
     width: 100vw;
     margin: 0;
-    background-color: #fbfbff;
+    font-family: "Montserrat", sans-serif;
+    /* background-color: #fbfbff; */
 }
 
-:root {
-    --card-bk-color: #bbdefb;
-    --card-font-color: #292b2e;
-    --header-bk-dark-color: #51a8efa4;
-    --header-bk-light-color: #3361BA;
-
-}
 .weather-header { 
-    background: linear-gradient(to right, #1565c0 0%, #bbdefb 100%);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.weather-header > h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    color: #e4e3de;
+}
+
+.input-group {
+    margin-top: 20px;
+}
+
+.weather-search,
+.search-button,
+.cityButton {
+    border-radius: 10px !important;
+    font-weight: 300;
+    outline: none;
+}
+
+.search-button {
+    background-color: #595f39;
+    border: 1px solid #595f39;
+}
+
+.search-button:hover,
+.cityButton:hover {
+    background-color: #1b1b1b;
+    outline: none;
+}
+
+.cityButton {
+    background-color: #c5c6bb;
+    border: 1px solid #c5c6bb;
+    color: #1b1b1b;
+}
 
 .today-weather {
-    border: 1px solid #292b2e;
-    border-radius: 20px;
-    padding: 20px;
+    background-color: #e4e3de;
 }
 
+.today-weather,
 .forecast-card {
+    border: 1px solid #e4e3de;
+    border-radius: 10px;
     padding: 10px;
-    background-color: var(--card-bk-color);
-    color: var(--card-font-color);
-    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1b1b1b;
 }
 
-#search-input {
-    width: 100%;
+.today-weather > p,
+.forecast-card > p {
+    line-height: 0.8rem;
+    font-weight: 300;
 }
 
 .input-group-append {
