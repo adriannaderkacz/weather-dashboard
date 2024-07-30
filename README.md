@@ -15,9 +15,9 @@ N/A
 ## Page
 https://adriannaderkacz.github.io/weather-dashboard/
 
-<img width="1508" alt="Screenshot 2024-01-16 at 22 45 07" src="https://github.com/adriannaderkacz/weather-dashboard/assets/92231751/5d339953-715a-430c-8980-135cca335c07">
-
-<img width="1494" alt="Screenshot 2024-01-16 at 22 45 24" src="https://github.com/adriannaderkacz/weather-dashboard/assets/92231751/1829cc14-4b40-4625-b866-7a593c52bb06">
+<img width="1508" src="./assets/images/one.png">
+<img width="1508" src="./assets/images/two.png">
+<img width="1508" src="./assets/images/three.png">
 
 ## Usage
 Welcome to my interactive weather dashboard! This user-friendly website allows you to effortlessly search for and view weather forecasts for cities worldwide. Here's how you can make the most of our features:
