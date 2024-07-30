@@ -5,37 +5,45 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- CSS -->
   <link rel="stylesheet" href="./assets/style.css" />
   <title>Weather Dashboard</title>
 </head>
 
 <body>
-  <header class="container-fluid text-center text-white bg-dark p-2 weather-header">
-    <h1>Weather Dashboard</h1>
+  <header class="weather-header">
+    <h1>What's the Weather?</h1>
   </header>
 
   <!--Max width for ultra wide resolution-->
   <div class="container-fluid" style="max-width: 1400px">
     <div class="row">
       <aside class="col-lg-3 pb-3">
-        <h2 id="form-heading" class="mt-1 h3 form-label">
-          Search for a City:
-        </h2>
         <div id="buttons-view"></div>
         <form id="search-form" class="form">
           <div class="form-inline form-group">
             <div class="input-group">
-              <input class="form-input weather-search" type="text" id="search-input" placeholder="London"
+              <input 
+                class="weather-search" 
+                type="text" 
+                id="search-input" 
+                placeholder="Search for a city"
                 aria-labelledby="form-heading" aria-controls="today forecast">
-              <div class="input-group-append">
-                <button type="submit" class="btn bg-primary search-button" id="search-button"
-                  aria-label="submit search">
-                  Search
-                </button>
-                <hr class="hr weather-hr" />
-              </div>
+                <div class="input-group-append">
+                  <button 
+                    type="submit" class="search-button" id="search-button"
+                    aria-label="submit search">
+                    Find Forecast
+                  </button>
+                  <hr class="hr weather-hr" />
+                </div>
             </div>
           </div>
         </form>
